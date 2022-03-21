@@ -1,0 +1,64 @@
+* {
+    font-family: 'Calibri';
+    font-size: 21px;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.main__header {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.qr-img {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.main__form__label {
+    display: block;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+.main__form__input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+.food-name {
+    display: block;
+    margin-right: 10px;
+}
+.food-name::after {
+    content: 'Название корма';
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.weight {
+    display: block;
+}
+.weight::after {
+    content: 'Вес';
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main__form:first-child {
+    border-bottom: 2px dashed #000;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.sign::after {
+    content: 'Подпись владельца с расшифровкой подписи';
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
